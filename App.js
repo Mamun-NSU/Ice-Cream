@@ -5,13 +5,13 @@ import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
 
-
+// This is main App function
 function App() {
   return (
-    <Layout> 
-         <Header/>
-         <Body/>
-         <Footer/>
+    <Layout>
+      <Header />
+      <Body />
+      <Footer />
     </Layout>
   );
 }
